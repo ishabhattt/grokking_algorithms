@@ -41,8 +41,6 @@ The `findsmallest` function is designed to find the **index of the smallest elem
 4. Finally, it returns the index of the smallest element.
 
 Example:
-
-````python
 Input: [5, 3, 6, 2, 10]
 Output: 3 (index of the smallest element, 2)
 
