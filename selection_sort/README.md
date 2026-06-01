@@ -116,5 +116,7 @@ findsmallest finds 10 (index 0).
 copiedArr = [], newArr = [2, 3, 5, 6, 10].
 Output: [2, 3, 5, 6, 10]
 
+
+###  **Summary**
 This implementation of Selection Sort is simple and easy to understand but not the most efficient for large datasets due to its ( O(n^2) ) time complexity. It is useful for educational purposes and small datasets. ```
-````
+
