@@ -46,7 +46,8 @@ Example:
 Input: [5, 3, 6, 2, 10]
 Output: 3 (index of the smallest element, 2)
 
-4. The code uses two for loops because the Selection Sort algorithm involves two distinct tasks:
+### 4. **The code uses two for loops because the Selection Sort algorithm involves two distinct tasks:**
+
 
 Outer Loop:
 
