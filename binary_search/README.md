@@ -14,9 +14,13 @@ n= number of operations
 Some Common big O run times
 
 O(logn) also knows as log time. EX- binary search
+
 O(n) also known as linear time, EX- simple search
+
 O(n * log n ) EX- a fast sorting algorithm, like quicksort
+
 O(n*n or n square) EX- a slow sorting algorithm, like selection sort
+
 O(n!) EX- a really slow algorithm, like the travelling salesperson
 
 Important--
