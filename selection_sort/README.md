@@ -57,7 +57,7 @@ In findsmallest, the inner loop (for i in range(1, len(arr))) finds the smallest
 It runs approximately n, n-1, n-2, ..., 1 times over the course of the algorithm.
 The two loops together give the algorithm a time complexity of ( O(n^2) ).
 
-5. What does newArr.append(copiedArr.pop(smallest)) do?
+### 5. **What does newArr.append(copiedArr.pop(smallest)) do?:**
 This line performs two operations:
 
 copiedArr.pop(smallest):
@@ -69,15 +69,15 @@ newArr.append(...):
 Appends the removed smallest element to the newArr array, which is being used to store the sorted elements.
 Together, this line moves the smallest element from the unsorted array (copiedArr) to the sorted array (newArr).
 
-6. Why is findsmallest called inside the loop?
+### 6. **Why is findsmallest called inside the loop?**
 
 The findsmallest function is called inside the loop because the smallest element needs to be found repeatedly for the remaining unsorted portion of the array. After each iteration, the smallest element is removed from the unsorted array (copiedArr), so the next smallest element must be found in the updated array.
 
-7. Why is the original array not modified?
+### 7. **Why is the original array not modified?**
 
 The original array is not modified because a copy of the array is created using list(arr). All operations, such as removing elements with pop(), are performed on the copied array (copiedArr), leaving the original array unchanged.
 
-8. What is the time complexity of this implementation?
+### 8. **What is the time complexity of this implementation?**
 
 The time complexity of this implementation is ( O(n^2) ), where n is the length of the array. This is because:
 
